@@ -1,0 +1,20 @@
+test_iter: 48
+test_state: { stage: "test-on-val-set" }
+#test_iter: 58
+#test_state: { stage: "test-on-test-set" }
+test_interval: 10
+base_lr: 0.0005
+display: 1
+max_iter: 4000 
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 4000
+snapshot: 1000 
+snapshot_prefix: "/home/ubuntu/pic4turtle/models/google4turtle"
+solver_mode: GPU
+random_seed: 8888
+net: "/home/ubuntu/pic4turtle/./google_svm/train_val.prototxt"
+iter_size: 3 
+solver_type: NESTEROV

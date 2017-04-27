@@ -1,0 +1,17 @@
+test_iter: 24
+test_interval: 10
+base_lr: 0.0001
+display: 1
+max_iter: 4000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 5000
+snapshot: 500
+snapshot_prefix: "/home/ubuntu/pic4turtle/models/vgg4turtle"
+solver_mode: GPU
+random_seed: 8888
+net: "/home/ubuntu/pic4turtle/./vgg_svm/train_val.prototxt"
+iter_size: 10 
+solver_type: NESTEROV

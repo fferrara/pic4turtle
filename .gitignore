@@ -1,0 +1,13 @@
+*data*/
+lmdb
+*caffemodel
+*solverstate
+*zip
+*fotos*
+Tartaruga_Verde
+
+*pyc
+caffe
+caffe2
+detection/fast-rcnn
+detection/multibox
